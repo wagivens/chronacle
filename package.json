@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/wagivens/chronacle/issues"
   },
-  "homepage": "https://github.com/wagivens/chronacle#readme"
+  "homepage": "https://github.com/wagivens/chronacle#readme",
+  "devDependencies": {
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
