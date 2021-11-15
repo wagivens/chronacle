@@ -8,7 +8,7 @@ module.exports = {
     }, 
     
     output: {
-		  filename: '[name].[contentHash].js',
+		  filename: '[name].js',
 		  path: path.resolve(__dirname, 'dist')
     },
 
@@ -17,7 +17,7 @@ module.exports = {
         {
           test: /\.scss$/,
           exclude: /node_modules/,
-          use: ['postcss-loader']
+          use: ['postcss-loader', 'css-loader']
         }
       ]
     }
