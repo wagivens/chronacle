@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-tokens": "style-dictionary build --config ./style-dictionary.config.json",
+    "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "compile:scss": "sass --watch src/scss/main.scss:src/styles.css",
     "prebuild": "npx tsc src/*.ts",
     "build": "webpack"

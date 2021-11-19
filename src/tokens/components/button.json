@@ -1,0 +1,17 @@
+{
+    "color": {
+        "background": {
+            "button": {
+                "primary-lm": {"value": "{color.primary.300.value}"},
+                "primary-dm": {"value": "{color.primary.200.value}"}
+            }
+        },
+
+        "text": {
+            "button": {
+                "primary-lm": {"value": "{color.tint.300.value}"},
+                "primary-dm": {"value": "{color.shade.100.value}"}
+            }
+        }
+    }
+}
