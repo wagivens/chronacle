@@ -1,6 +1,15 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
+/* 
+Packages to add:
+  1. storybook
+  2. pwa-asset-generator
+  3. jest (testing)
+  4. minify-template-literal-loader
+  5. postcss-bem-linter (for SUIT naming convention linting)
+*/
+
 module.exports = {
     mode: 'production',
     
