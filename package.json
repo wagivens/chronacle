@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "generate-pwa-assets": "npx pwa-asset-generator",
     "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "compile:scss": "sass --watch src/scss/main.scss:src/styles.css",
@@ -30,6 +31,7 @@
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.3.1",
     "mini-css-extract-plugin": "^2.4.4",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
