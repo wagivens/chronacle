@@ -10,7 +10,7 @@
     "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "compile:scss": "sass --watch src/scss/main.scss:src/styles.css",
     "prebuild": "npx tsc src/*.ts",
-    "build": "webpack"
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
@@ -38,6 +38,7 @@
     "postcss-loader": "^6.2.0",
     "postcss-preset-env": "^7.0.0",
     "pwa-asset-generator": "^6.0.2",
+    "rollup": "^2.61.0",
     "style-dictionary": "^3.0.3",
     "typescript": "^4.4.4"
   }
