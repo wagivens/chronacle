@@ -25,12 +25,10 @@ module.exports = {
         {
           test: /\.css$/,
           exclude: /node_modules/,
-          use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+          use: ['css-loader', 'postcss-loader'],
         }
       ]
     },
 
-    plugins: [new MiniCssExtractPlugin({
-      filename: '[name].css',
-    })],
+    plugins: [],
 }

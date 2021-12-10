@@ -33,7 +33,6 @@
     "eslint-plugin-import": "^2.25.3",
     "jest": "^27.3.1",
     "lit": "^2.0.2",
-    "mini-css-extract-plugin": "^2.4.4",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
     "postcss-loader": "^6.2.0",
