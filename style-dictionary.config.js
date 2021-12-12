@@ -1,7 +1,7 @@
 const StyleDictionary = require('style-dictionary');
 
 module.exports = {
-    source: ['src/tokens/**/*.json'],
+    source: ['src/components/**/*.tokens.json'],
     platforms: {
         scss: {
             transforms: ["attribute/cti", "name/cti/camel", "color/hsl", "size/rem"],
