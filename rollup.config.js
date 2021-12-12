@@ -12,7 +12,7 @@ export default {
     input: 'src/index.js',
     output: {
         dir: path.resolve(__dirname, '/dist'), 
-        file: 'index.js',
+        file: 'main.js',
         format: 'cjs'
     }
   };
