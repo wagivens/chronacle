@@ -1,9 +1,15 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
-        "module": "es6",
         "experimentalDecorators": true,
+        "module": "ES6",
+        "moduleResolution": "node",
+        "target": "ES6"
     },
     "include": [
         "src/**/*.ts",
     ],
+    "exclude": [
+        "node_modules"
+    ]
 }
