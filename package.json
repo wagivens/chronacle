@@ -10,7 +10,7 @@
     "generate-pwa-assets": "npx pwa-asset-generator",
     "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "compile:scss": "sass --watch src/scss/main.scss:src/styles.css",
-    "compile:ts": "npx tsc src/*.ts",
+    "compile:ts": "npx tsc",
     "build": "rollup --config"
   },
   "repository": {
