@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "web-dev-server",
     "test": "jest",
     "generate-pwa-assets": "npx pwa-asset-generator",
     "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
@@ -27,6 +28,7 @@
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@typescript-eslint/eslint-plugin": "^5.3.1",
     "@typescript-eslint/parser": "^5.3.1",
+    "@web/dev-server": "^0.1.28",
     "css-loader": "^6.5.1",
     "cssnano": "^5.0.11",
     "eslint": "^8.2.0",
