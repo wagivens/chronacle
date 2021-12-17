@@ -11,6 +11,7 @@
     "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "compile:scss": "sass --watch src/scss/main.scss:src/styles.css",
     "compile:ts": "npx tsc",
+    "lint": "eslint --config .eslintrc.js",
     "prettify": "npx prettier --check",
     "build": "rollup --config"
   },
