@@ -1,3 +1,5 @@
+import { esbuildPlugin } from '@web/dev-server-esbuild';
+
 export default {
     open: true,
     watch: true,
@@ -6,5 +8,6 @@ export default {
       exportConditions: ['development'],
       dedupe: true,
     },
-    esbuildTarget: 'auto',
+
+    plugins: [esbuildPlugin({ ts: true, target: 'auto' })],
   };
