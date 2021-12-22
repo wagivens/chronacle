@@ -1,10 +1,14 @@
-const path = require('path');
+import {terser} from 'rollup-plugin-terser';
+import resolve from '@rollup/plugin-node-resolve';
 
 export default {
     input: 'src/index.js',
     output: {
-        dir: path.resolve(__dirname, '/dist'), 
-        file: 'main.js',
-        format: 'cjs'
-    }
+        dir: './dist/',
+        format: 'esm'
+    },
+    plugins: [
+        resolve(),
+        terser(),
+    ],
   };
