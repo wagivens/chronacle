@@ -5,15 +5,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "web-dev-server",
+    "serve": "web-dev-server --node-resolve --watch",
     "test": "jest",
     "generate-pwa-assets": "npx pwa-asset-generator",
     "generate-tokens": "style-dictionary build --config ./style-dictionary.config.js",
     "compile:scss": "sass --watch src/scss/main.scss:src/styles.css",
-    "compile:ts": "npx tsc",
+    "compile:ts": "npx tsc --watch",
     "lint": "eslint --config .eslintrc.js",
     "prettify": "npx prettier --check",
-    "build": "rollup --config"
+    "build": "rollup --config --watch"
   },
   "repository": {
     "type": "git",
