@@ -1,20 +1,15 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ["airbnb-base", "plugin:storybook/recommended"],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: 'module'
   },
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: ['@typescript-eslint'],
   ignorePatterns: ['node_modules'],
-  rules: {
-  },
+  rules: {}
 };
