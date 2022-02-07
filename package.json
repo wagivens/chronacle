@@ -65,6 +65,9 @@
     "immer": "^9.0.7",
     "glob-parent": "^6.0.2",
     "browserslist": "^4.19.1",
-    "trim": "^1.0.1"
+    "trim": "^1.0.1",
+    "postcss": "^8.3.11",
+    "node-fetch": "^2.6.7",
+    "nanoid": "^3.1.31"
   }
 }
