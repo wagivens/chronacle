@@ -1,4 +1,4 @@
-![Chronacle logo](./assets/images/chronacle_logo.png)
+![Chronacle logo](./assets/images/readme-banner.png)
 
 <h1 align="center">
   Chronacle
