@@ -1,0 +1,60 @@
+{
+    "button": {
+        "padding": {
+
+        },
+
+        "margin": {
+
+        },
+        
+        "transparent": {
+            "color": {
+                "font": { 
+                    "lightMode": { "type": "color", "value": "{font.color.primary.light.value}" },
+                    "darkMode": { "type": "color", "value": "{color.blue.300.value}" }
+                 },
+                "icon": { 
+
+                },
+
+                "background": {
+                    "lightMode": { "type": "color", "value": "{color.background.primary}" },
+                    "darkMode": { "type": "color", "value": "{color.blue.300.value}" },
+                    "hover": {
+
+                    },
+                    "active": {
+
+                    }
+                }
+            }
+        },
+
+        "primary": {
+            "color": {
+                "font": { 
+                    "lightMode": { "type": "color", "value": "{color.text.against-brand.lightMode.value}" },
+                    "darkMode": { "type": "color", "value": "{color.text.against-brand.darkMode.value}" }
+                 },
+                 
+                "icon": { 
+                    "lightMode": { "type": "color", "value": "{color.text.against-brand.lightMode.value}" },
+                    "darkMode": { "type": "color", "value": "{color.text.against-brand.darkMode.value}" }
+                },
+
+                "background": {
+                    "lightMode": { "type": "color", "value": "{color.background.primary}" },
+                    "darkMode": { "type": "color", "value": "{color.blue.300.value}" }
+                }
+            },
+
+            "size": {
+                "font": {
+                    
+                }
+            }
+
+        }
+    }
+}

@@ -1,10 +1,10 @@
 const StyleDictionary = require('style-dictionary');
 
 module.exports = {
-    source: ['src/components/**/*.tokens.json'],
+    source: ['src/tokens/foundations/color.tokens.json'],
     platforms: {
         scss: {
-            transforms: ["attribute/cti", "name/cti/camel", "color/hsl", "size/rem"],
+            transforms: ["attribute/cti", "name/cti/kebab", "size/rem"],
             transformGroup: 'scss',
             buildPath: 'src/scss/',
             files: [{
